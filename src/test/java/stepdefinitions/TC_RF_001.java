@@ -6,8 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import pages.IndexPage;
 import utilities.ReusableMethods;
-import java.util.List;
-
+import java.util.*;
 
 public class TC_RF_001 {
     IndexPage indexPage = new IndexPage();
