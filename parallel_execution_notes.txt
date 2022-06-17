@@ -1,0 +1,13 @@
+1. We add 3 plugins in the pom
+-failsafe : letting the tests execute safe even after some tests fails
+-surefire : for parallel execution. we use parallel and thread count keywords in this plugin
+-cucumber-reporting : this generates extra detailed reports
+2. Create multiple runner-We create these runner for parallel execution
+Normally we run our Runner class that we created before.
+-TestRunner
+-SmokeTestRunner
+-RegressionTestRunner
+3. Run from the Terminal while you are in the project directory
+-mvn clean verify
+-mvn clean install
+--------------------------------------

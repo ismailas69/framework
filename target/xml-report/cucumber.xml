@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="35.122">
+    <testcase classname="TS_001_Register_Functionality" name="_2" time="10.293">
+        <system-out><![CDATA[Given user navigates to Morningstar.........................................passed
+When user sends keyword "wide" to keyword search box........................passed
+And user clicks on enter button.............................................passed
+Then user should be able to see "wide" in all Index Name field..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="TS_001_Register_Functionality" name="_3" time="8.012">
+        <system-out><![CDATA[Given user navigates to Morningstar.........................................passed
+When user sends keyword "xxxxx" to keyword search box.......................passed
+And user clicks on enter button.............................................passed
+Then user should be able to see "xxxxx" in all Index Name field.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="TS_001_Register_Functionality" name="_4" time="7.986">
+        <system-out><![CDATA[Given user navigates to Morningstar.........................................passed
+When user sends keyword "x1y1" to keyword search box........................passed
+And user clicks on enter button.............................................passed
+Then user should be able to see "x1y1" in all Index Name field..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="TS_001_Register_Functionality" name="_5" time="8.529">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given user navigates to Morningstar.........................................passed
+When user sends keyword "!?@&" to keyword search box........................passed
+And user clicks on enter button.............................................passed
+Then user should be able to see "!?@&" in all Index Name field..............failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.TC_RF_001.user_should_be_able_to_see_in_all_index_name_field(TC_RF_001.java:41)
+	at ✽.user should be able to see "!?@&" in all Index Name field(file:///Users/ismailasan/Desktop/framework_cucumber/./src/test/resources/features/TC_RF_001.feature:8)
+]]></failure>
+    </testcase>
+</testsuite>
