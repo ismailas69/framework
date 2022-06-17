@@ -57,7 +57,7 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="JUnit.ApiTesting">
     <configuration name="DynamicWebTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicWebTable" />
       <module name="framework_cucumber" />
@@ -65,22 +65,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Test_dropdown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MorningStar.feature" />
-      <option name="GLUE" value="stepdefinitions Hooks base_urls" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="ApiTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="framework_cucumber" />
-      <option name="NAME_FILTER" value="^Test_dropdown$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test_dropdown$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Test_dropdown" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="stepdefinitions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepdefinitions.ApiTesting" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTesting" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.DynamicWebTable.test2" />
         <item itemvalue="JUnit.DynamicWebTable.test" />
         <item itemvalue="Application.DynamicWebTable" />
-        <item itemvalue="Cucumber Java.Scenario: Test_dropdown" />
       </list>
     </recent_temporary>
   </component>

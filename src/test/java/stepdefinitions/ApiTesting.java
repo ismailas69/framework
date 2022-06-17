@@ -1,6 +1,5 @@
 package stepdefinitions;
 
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
 import pojos.Pojo;
@@ -27,5 +26,5 @@ public class ApiTesting {
 
         response.then().assertThat().statusCode(200);
     }
-
+// testing text added
 }
