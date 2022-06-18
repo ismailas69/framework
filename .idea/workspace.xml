@@ -13,7 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f23fd5f-fc0f-4773-8814-6e9d4f169f0d" name="Default Changelist" comment="" />
+    <list default="true" id="2f23fd5f-fc0f-4773-8814-6e9d4f169f0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
